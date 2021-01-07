@@ -1,0 +1,78 @@
+@media (max-width: 992px) {
+    .content-main .sidebar-main {
+        display: none;
+   }
+    .content-main .section-top-vertical .banner-carouse {
+        width: 100%;
+   }
+    .detail-product .item-right {
+        display: none;
+   }
+    .detail-product .item-left .zoom-left #gal1 a {
+        width: 23%;
+        margin-top: 10px;
+   }
+    .detail-product .item-left .img_zoomWrapper {
+        width: 100%;
+        position: relative;
+   }
+    .detail-product .item-left .img_zoomWrapper img {
+        width: 100%;
+   }
+}
+@media (max-width: 768px) {
+    header .header-top .sub-top-top .box-welcome {
+        flex: 0 0 50%;
+        max-width: 50%;
+   }
+    header .header-top .sub-top-top .box-search {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   }
+    header .header-top .sub-top-top .box-search form .items-form {
+        max-width: 100%;
+   }
+    header .header-top .sub-top-top .box-hotline {
+        padding-left: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+   }
+    header .header-top .sub-top-bottom .box-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+        padding-left: 10px;
+   }
+    header .header-top .sub-top-bottom .box-item .title-item {
+        padding-top: 15px;
+   }
+    header .header-top .sub-top-bottom .box-item:last-child {
+        margin: 0 auto;
+   }
+    .title-header {
+        display: block;
+   }
+    .title-header .list-category {
+        margin-top: 10px;
+   }
+    .title-header .nav-tabs li {
+        width: 50%;
+   }
+    .content-main .section-top-vertical .banner-carouse .carouse-left {
+        width: 100%;
+   }
+    .content-main .section-top-vertical .banner-carouse .carouse-right {
+        display: none;
+   }
+    .detail-product .item-center {
+        margin-top: 30px;
+   }
+    .detail-product .item-center .bottom button {
+        width: 95%;
+   }
+}

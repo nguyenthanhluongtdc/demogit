@@ -1,0 +1,44 @@
+.banner-post {
+    background-size: cover;
+    position: relative;
+    min-height: 200px;
+}
+.banner-post .box-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-post .box-content h1 {
+    font-size: 35px;
+    color: #fff;
+    animation: aniH1 1s 1;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner-post .box-content .item-category {
+    animation: aniCategory 1s 1;
+}
+.banner-post .box-content .item-category span {
+    color: #fff;
+}
+@keyframes aniH1 {
+    from {
+        transform: translateY(-80px);
+        opacity: 0.3;
+   }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+   }
+}
+@keyframes aniCategory {
+    from {
+        transform: translateY(80px);
+        opacity: 0.3;
+   }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+   }
+}

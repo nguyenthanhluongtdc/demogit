@@ -1,0 +1,163 @@
+header .header-top .sub-top-top {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+header .header-top .sub-top-top .box-welcome {
+    color: #f16669;
+    font-size: 20px;
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+header .header-top .sub-top-top .box-search {
+    flex: 0 0 57%;
+    max-width: 57%;
+}
+header .header-top .sub-top-top .box-search form .items-form {
+    display: flex;
+    line-height: 50px;
+    background: #f0f0f0;
+    padding: 0 25px;
+    max-width: 80%;
+    border: 1px solid #000;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+header .header-top .sub-top-top .box-search form .items-form input[type="text"] {
+    background: transparent;
+    width: 95%;
+}
+header .header-top .sub-top-top .box-search form .items-form button {
+    background: transparent;
+}
+header .header-top .sub-top-top .box-hotline {
+    flex: 0 0 25%;
+    max-width: 25%;
+    font-size: 20px;
+    color: #f16669;
+    text-align: right;
+}
+header .header-top .sub-top-bottom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+header .header-top .sub-top-bottom .box-item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: flex;
+}
+header .header-top .sub-top-bottom .box-item .title-item {
+    margin-left: 10px;
+}
+header .header-top .sub-top-bottom .box-item .title-item h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+header .header-top .sub-top-bottom .box-item .title-item .description .qty {
+    font-size: 14px;
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+header .header-navbar {
+    background: #141e39;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 -2px 4px 2px #ccc inset;
+    z-index: 10000;
+}
+header .header-navbar .items-header .menu-navbar {
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 100%;
+    padding: 15px 0;
+    width: 230px;
+    justify-content: center;
+    background: #5f832a;
+    position: relative;
+}
+header .header-navbar .items-header .menu-navbar i {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+header .header-navbar .items-header .menu-navbar span {
+    color: #fff;
+}
+header .header-navbar .items-header .navbar-collapse-over {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    transition: transform 1000ms;
+}
+header .header-navbar .items-header .navbar-collapse-over .nav-item {
+    padding: 15px 20px;
+}
+header .header-navbar .items-header .navbar-collapse-over .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+header .header-navbar .items-header .navbar-collapse-over .nav-item .nav-link:hover {
+    color: greenyellow;
+}
+header .header-navbar .items-header .box_cart-search {
+    float: right;
+    align-items: center;
+    display: none;
+}
+header .header-navbar .items-header .box_cart-search form {
+    background: #fff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    margin-right: 10px;
+    width: 0px;
+    transition: all 1000ms;
+}
+header .header-navbar .items-header .box_cart-search form button {
+    background: none;
+}
+header .header-navbar .items-header .box_cart-search form button i {
+    color: #000;
+    font-size: 18px;
+}
+header .header-navbar .items-header .box_cart-search form input[type='text'] {
+    background: none;
+}
+header .header-navbar .items-header .box_cart-search a i {
+    font-size: 18px;
+    color: #fff;
+}
+header .header-navbar .items-header .box_cart-search a.search {
+    padding: 15px 20px;
+}
+header .header-navbar .items-header .box_cart-search a.cart {
+    padding: 15px 0;
+    position: relative;
+}
+header .header-navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header .header-navbar.fixed .navbar-collapse-over {
+    transform: translateX(-20px);
+}
+header .header-navbar.fixed .box_cart-search {
+    display: flex;
+}
